@@ -11,7 +11,7 @@ Conexion conexion;
 			String nombre = TF2.getText();
 			int telefono = Integer.parseInt(TF3.getText());
 			String direccion = TF4.getText();
-			Proveedor proveedor = new Proveedor(codigo,nombre,telefono,direccion);
+			Prov proveedor = new Proveedor(codigo,nombre,telefono,direccion);
 			ProveedorCtrl proveedorCtrl = new ProveedorCtrl(conexion);
 			proveedorCtrl.insert(proveedor);
 			

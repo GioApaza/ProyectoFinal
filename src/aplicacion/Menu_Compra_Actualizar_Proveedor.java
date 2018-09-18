@@ -11,4 +11,14 @@ public class Menu_Compra_Actualizar_Proveedor {
 			int telefono = Integer.parseInt(TF3.getText());
 			String direccion = TF4.getText();
 
+
+		Proveedor proveedor = new Proveedor(codigo,nombre,telefono,direccion);
+		ProveedorCtrl proveedorCtrl = new ProveedorCtrl(conexion);
+		proveedorCtrl.update1(proveedor);
+	}catch(Exception e) {
+		TF1.setText("Ingrese Valor Valido");
+		TF2.setText("Ingrese Valor Valido");
+	}
 }
+}
+
