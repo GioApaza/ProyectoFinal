@@ -8,5 +8,5 @@ public class Main {
 				Parent root = FXMLLoader.load(getClass().getResource("/application/menuPrincipal.fxml"));
 				Scene scene = new Scene(root,200,200);
 				scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-				primaryStage.setScene(
+			
 }
