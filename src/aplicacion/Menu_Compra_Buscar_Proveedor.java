@@ -11,6 +11,6 @@ public class Menu_Compra_Buscar_Proveedor {
 			
 			Proveedor proveedor = new Proveedor(codigo,"",0,"");
 			ProveedorCtrl proveedorCtrl = new ProveedorCtrl(conexion);
-			Proveedor proveedor1 =proveedorCtrl.search1(proveedor);
+			iojiofjofjo proveedor1 =proveedorCtrl.search1(proveedor);
 			TF1.setTex
 }
