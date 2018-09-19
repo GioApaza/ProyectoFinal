@@ -28,5 +28,6 @@ public class Menu_Venta_Insertar_Cliente {
 			TF2.setText("Ingrese Valor Valido");
 		}
 		
+	}
 	
-	}}
+}
