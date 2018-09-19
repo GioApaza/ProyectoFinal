@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+<AnchorPane prefHeight="450.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.Menu_Compra_Buscar_Proveedor">
+  <!-- TODO Add Nodes -->
+  <children>
+    <TextField fx:id="TF1" layoutX="50.0" layoutY="103.0" prefWidth="200.0" />
+    <TextField fx:id="TF2" layoutX="50.0" layoutY="157.0" prefWidth="200.0" />
+    <TextField fx:id="TF3" layoutX="50.0" layoutY="205.0" prefWidth="200.0" />
+    <TextField fx:id="TF4" layoutX="50.0" layoutY="253.0" prefWidth="200.0" />
+    <Button layoutX="122.0" layoutY="356.0" mnemonicParsing="false" onAction="#buscar" text="BUSCAR" />
+    <Label layoutX="50.0" layoutY="72.0" text="CODIGO PROVEEDOR" />
+    <Label layoutX="50.0" layoutY="133.0" text="NOMBRE" />
+    <Label layoutX="50.0" layoutY="179.0" text="TELEFONO" />
+    <Label layoutX="51.0" layoutY="227.0" text="DIRECCION" />
+  </children>
 </AnchorPane>
-

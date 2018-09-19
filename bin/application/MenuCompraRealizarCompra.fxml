@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+<AnchorPane prefHeight="450.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.Menu_Compra_Realizar_Compra">
+  <!-- TODO Add Nodes -->
+  <children>
+    <TextField fx:id="TF1" layoutX="95.0" layoutY="109.0" prefWidth="200.0" />
+    <TextField fx:id="TF2" layoutX="94.0" layoutY="163.0" prefWidth="200.0" />
+    <TextField fx:id="TF3" layoutX="94.0" layoutY="214.0" prefWidth="200.0" />
+    <Label layoutX="95.0" layoutY="61.0" text="CODIGO COMPRA" />
+    <Label layoutX="95.0" layoutY="137.0" text="CODIGO AUTO" />
+    <Label layoutX="94.0" layoutY="191.0" text="CANTIDAD" />
+    <Button layoutX="153.0" layoutY="317.0" mnemonicParsing="false" onAction="#comprar" text="COMPRAR" />
+  </children>
 </AnchorPane>
-
