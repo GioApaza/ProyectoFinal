@@ -1,7 +1,24 @@
 package application;
 
+import control.Conexion;
+import control.DetalleVentaCtrl;
+import control.FacturaCtrl;
+import control.ProductoCtrl;
+import control.VentaCtrl;
+import entity.Auto;
+import entity.DetalleVenta;
+import entity.Factura;
+import entity.Venta;
+import javafx.fxml.FXML;
+import javafx.scene.control.TextField;
+
 public class Menu_Venta_Realizar_Venta {
 
+	@FXML private TextField TF1;
+	@FXML private TextField TF2;
+	@FXML private TextField TF3;
+	@FXML private TextField TF4;
+	Conexion conexion;
 	
 	public void realizarVenta() throws Throwable {
 		conexion = new Conexion();
@@ -29,9 +46,12 @@ public class Menu_Venta_Realizar_Venta {
 		
 		
 		
+		
+		
+		
+		
+		
 	};
 	
 	
-}
-
 }

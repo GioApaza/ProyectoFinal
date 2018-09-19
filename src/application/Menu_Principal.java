@@ -1,7 +1,13 @@
 package application;
 
-public class Menu_Principal {
+import java.io.IOException;
 
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+public class Menu_Principal {
 
 	
 	public void cargarMenuCompra() throws IOException {
@@ -22,5 +28,11 @@ public class Menu_Principal {
 		Parent root = FXMLLoader.load(getClass().getResource("/application/MenuVenta.fxml"));
 
 		Scene scene = new Scene(root,450,450);
-		scene.getStyl
+		scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+		primaryStage.setScene(scene);
+		primaryStage.show();
+		
+	}
+	
+	
 }
