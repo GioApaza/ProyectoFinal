@@ -5,12 +5,12 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="200.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.Menu_Venta_Buscar_Cliente">
+<AnchorPane prefHeight="200.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.Menu_Venta_Actualizar_Cliente">
   <!-- TODO Add Nodes -->
   <children>
     <TextField fx:id="TF1" layoutX="30.0" layoutY="53.0" prefWidth="141.0" />
     <TextField fx:id="TF2" layoutX="30.0" layoutY="106.0" prefWidth="141.0" />
-    <Button id="BT" layoutX="63.0" layoutY="157.0" mnemonicParsing="false" onAction="#buscar" prefHeight="22.0001220703125" text="BUSCAR" />
+    <Button id="BT" layoutX="63.0" layoutY="157.0" mnemonicParsing="false" onAction="#actualizar" prefHeight="22.0001220703125" text="ACTUALIZAR" />
     <Label layoutX="30.0" layoutY="20.0" text="CODIGO CLIENTE" />
     <Label layoutX="30.0" layoutY="82.0" text="NOMBRE" />
   </children>

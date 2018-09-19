@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+<AnchorPane prefHeight="311.0" prefWidth="326.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.Menu_Venta_Realizar_Venta">
+  <!-- TODO Add Nodes -->
+  <children>
+    <TextField id="TXT1" fx:id="TF1" layoutX="37.0" layoutY="76.0" prefWidth="200.0" />
+    <TextField id="TXT2" fx:id="TF2" layoutX="37.0" layoutY="124.0" prefWidth="200.0" />
+    <TextField id="TXT3" fx:id="TF3" layoutX="37.0" layoutY="168.0" prefWidth="200.0" />
+    <TextField id="TXT4" fx:id="TF4" layoutX="37.0" layoutY="210.0" prefWidth="200.0" />
+    <Label layoutX="37.0" layoutY="14.0" text="MENU VENTAS" />
+    <Label layoutX="37.0" layoutY="50.0" text="CODIGO VENTA" />
+    <Label layoutX="37.0" layoutY="98.0" text="CODIGO AUTO" />
+    <Label layoutX="37.0" layoutY="146.0" text="CANTIDAD" />
+    <Label layoutX="39.0" layoutY="190.0" text="NIT" />
+    <Button layoutX="123.0" layoutY="274.0" mnemonicParsing="false" onAction="#realizarVenta" text="VENDER" />
+  </children>
 </AnchorPane>
-

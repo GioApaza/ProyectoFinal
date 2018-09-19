@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+<AnchorPane prefHeight="200.0" prefWidth="250.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.Menu_Principal">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Button layoutX="50.0" layoutY="43.0" mnemonicParsing="false" onAction="#cargarMenuCompra" prefWidth="146.0" text="MENU COMPRA" />
+    <Button layoutX="50.0" layoutY="117.0" mnemonicParsing="false" onAction="#cargarMenuVenta" prefWidth="146.0" text="MENU VENTA" />
+  </children>
 </AnchorPane>
-
